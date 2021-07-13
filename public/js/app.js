@@ -53829,7 +53829,8 @@ var render = function() {
         _c("video", {
           ref: "video-here",
           staticClass: "video-here",
-          attrs: { autoplay: "" }
+          attrs: { autoplay: "", muted: "" },
+          domProps: { muted: true }
         }),
         _vm._v(" "),
         _c("video", {

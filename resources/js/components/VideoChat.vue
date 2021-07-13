@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="text-center">Upware Conference Call</h1>
+        <h1 class="text-center">Upware Meeting Call</h1>
         <div class="video-container" ref="video-container">
             <video class="video-here" ref="video-here" autoplay muted></video>
             <video class="video-there" ref="video-there" autoplay></video>
